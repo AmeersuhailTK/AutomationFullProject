@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testset.testAgileProject">
+      <class name="testset.testBankproject">
         <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="textvalidation"/>
+          <include name="setUp"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- testset.testAgileProject -->
+      </class> <!-- testset.testBankproject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
