@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-03T21:29:07 AST" name="Default suite" finished-at="2026-09-03T21:29:26 AST" duration-ms="18949">
+  <suite started-at="2026-09-07T11:33:27 AST" name="Default suite" finished-at="2026-09-07T11:42:13 AST" duration-ms="525428">
     <groups>
     </groups>
-    <test started-at="2026-09-03T21:29:07 AST" name="Default test" finished-at="2026-09-03T21:29:26 AST" duration-ms="18949">
-      <class name="testset.testSecurityProject">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testset.testSecurityProject@179ece50]" started-at="2026-09-03T21:29:07 AST" name="setup" finished-at="2026-09-03T21:29:14 AST" duration-ms="6424" status="PASS">
+    <test started-at="2026-09-07T11:33:27 AST" name="Default test" finished-at="2026-09-07T11:42:13 AST" duration-ms="525428">
+      <class name="testset.testTelecomeProject">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:33:27 AST" name="setup" finished-at="2026-09-07T11:33:33 AST" duration-ms="5905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:1, instance:testset.testSecurityProject@179ece50]" started-at="2026-09-03T21:29:14 AST" name="loginTest" finished-at="2026-09-03T21:29:17 AST" duration-ms="3484" status="PASS">
+        <test-method signature="addCustomerTest()[pri:1, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:33:33 AST" name="addCustomerTest" finished-at="2026-09-07T11:34:19 AST" duration-ms="45293" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="dashboardValidationTest()[pri:2, instance:testset.testSecurityProject@179ece50]" started-at="2026-09-03T21:29:17 AST" name="dashboardValidationTest" finished-at="2026-09-03T21:29:18 AST" duration-ms="431" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashboardValidationTest -->
-        <test-method signature="balanceEnquiryTest()[pri:3, instance:testset.testSecurityProject@179ece50]" started-at="2026-09-03T21:29:18 AST" name="balanceEnquiryTest" finished-at="2026-09-03T21:29:20 AST" duration-ms="2501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- balanceEnquiryTest -->
-        <test-method signature="miniStatementTest()[pri:4, instance:testset.testSecurityProject@179ece50]" started-at="2026-09-03T21:29:20 AST" name="miniStatementTest" finished-at="2026-09-03T21:29:22 AST" duration-ms="1891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- miniStatementTest -->
-        <test-method signature="contactUsTest()[pri:5, instance:testset.testSecurityProject@179ece50]" started-at="2026-09-03T21:29:22 AST" name="contactUsTest" finished-at="2026-09-03T21:29:26 AST" duration-ms="3590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testset.testSecurityProject@179ece50]" started-at="2026-09-03T21:29:26 AST" name="tearDown" finished-at="2026-09-03T21:29:26 AST" duration-ms="495" status="PASS">
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:34:19 AST" name="tearDown" finished-at="2026-09-07T11:34:20 AST" duration-ms="1273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testset.testSecurityProject -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:34:20 AST" name="setup" finished-at="2026-09-07T11:34:25 AST" duration-ms="4724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addTariffPlanTest()[pri:2, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:34:25 AST" name="addTariffPlanTest" finished-at="2026-09-07T11:34:31 AST" duration-ms="6364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTariffPlanTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:34:31 AST" name="tearDown" finished-at="2026-09-07T11:34:31 AST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:34:31 AST" name="setup" finished-at="2026-09-07T11:34:36 AST" duration-ms="4878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addTariffToCustomerTest()[pri:3, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:34:36 AST" name="addTariffToCustomerTest" finished-at="2026-09-07T11:41:20 AST" duration-ms="403885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTariffToCustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:41:20 AST" name="tearDown" finished-at="2026-09-07T11:41:22 AST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:41:22 AST" name="setup" finished-at="2026-09-07T11:41:26 AST" duration-ms="4707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="payBillingTest()[pri:4, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:41:26 AST" name="payBillingTest" finished-at="2026-09-07T11:42:12 AST" duration-ms="45401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payBillingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testset.testTelecomeProject@5b7a5baa]" started-at="2026-09-07T11:42:12 AST" name="tearDown" finished-at="2026-09-07T11:42:13 AST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testset.testTelecomeProject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
