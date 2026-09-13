@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testset.testNewTours">
+      <class name="testset.testPaymentGateWay">
         <methods>
-          <include name="setup"/>
+          <include name="verifyPaymentSubmission"/>
           <include name="tearDown"/>
-          <include name="testRegisterForm"/>
-          <include name="flightFinder"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testset.testNewTours -->
+      </class> <!-- testset.testPaymentGateWay -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
